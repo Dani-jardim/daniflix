@@ -2,7 +2,7 @@ import React from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 
-function CadstroCategoria () {
+function CadastroCategoria () {
   return (
     <PageDefault>
       <h1> Cadastro de Caregoria</h1>
@@ -14,4 +14,4 @@ function CadstroCategoria () {
   )
 }
 
-export default CadstroCategoria
+export default CadastroCategoria
