@@ -12,9 +12,9 @@ function Home() {
       <BannerMain
         videoTitle={Data.categorias[2].videos[0].titulo}
         url={Data.categorias[2].videos[0].url}
-        videoDescription={"Abraçamos a luz e a sombra das principais questões humanas e sociais, e compartilhamos a beleza da vida e as ferramentas necessárias para que cada indivíduo responda suas próprias questões, encontre suas próprias perguntas e então transforme a si mesmo e o coletivo. "}
+        videoDescription={"#AsMinaEnsina é um projeto com 4 Bgirls ensinando movimentos base do Breaking."}
       />
-      <div id="FrontEnd">
+      <div id="Prêmio Breaking Latino">
         <Carousel
           category={Data.categorias[0]}
         />
