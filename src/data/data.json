@@ -1,13 +1,9 @@
 {
   "categorias": [
     {
-      "titulo": "Prêmio Latino",
+      "titulo": "PREMIO LATINO",
       "link": "https://www.youtube.com/watch?v=dr8QmEPPHQY&list=PLqQn6L5q8gduhAQxaXO5D3QJwyL5poDc3",
-      "cor": "#6BD1FF",
-      "link_extra": {
-        "text": "Prêmio Breaking Latino Americano ",
-        "url": "https://www.youtube.com/watch?v=nHoa7599sbg&list=PLqQn6L5q8gduhAQxaXO5D3QJwyL5poDc3&index=2"
-      },
+      "cor": "#000000",
       "videos": [
         {
           "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
@@ -44,23 +40,23 @@
       ]
     },
     {
-      "titulo": "B-Girls",
-      "cor": "#00C86F",
+      "titulo": "B-GIRLS",
+      "cor": "#000000",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
+        "text": "",
         "url": "https://www.alura.com.br/cursos-online-programacao"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
+          "titulo": "",
           "url": "https://www.youtube.com/watch?v=Rkv9dOsAnbk&list=PLqQn6L5q8gduJJNxNgGjeNKYquNpvKLG7"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
+          "titulo": "",
           "url": "https://www.youtube.com/watch?v=ue_aZ0Km4m8&list=PLqQn6L5q8gduJJNxNgGjeNKYquNpvKLG7&index=4"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
+          "titulo": "",
           "url": "https://www.youtube.com/watch?v=TUxI2il-kyQ&list=PLqQn6L5q8gduJJNxNgGjeNKYquNpvKLG7&index=2"
         },
         {
@@ -75,7 +71,7 @@
     },
     {
       "titulo": "BREAKLISTA ",
-      "cor": "#9cd33b",
+      "cor": "#000000",
       "link_extra": {
         "text": "5 Rappers que você devia ouvir",
         "url": "https://www.youtube.com/watch?v=JL7xZVjiFVs&list=PLqQn6L5q8gduOkTKzMh0NGpUiAPwOlaQA&index=3"
@@ -100,83 +96,83 @@
       ]
     },
     {
-      "titulo": "Break Entrevista",
-      "cor": "orange",
+      "titulo": "BREAK ENTREVISTA",
+      "cor": "#000000",
       "videos": [
         {
-          "titulo": "Interestellar",
+          "titulo": "",
           "url": "https://www.youtube.com/watch?v=WNgGKHGd7iU&list=PLqQn6L5q8gds1T3e_4ZqGpnpS0vFuNkuj"
         },
         {
-          "titulo": "Gattaca",
+          "titulo": "",
           "url": "https://www.youtube.com/watch?v=dEkZKQP9HGU&list=PLqQn6L5q8gds1T3e_4ZqGpnpS0vFuNkuj&index=2"
         },
         {
-          "titulo": "A Chegada",
+          "titulo": "",
           "url": "https://www.youtube.com/watch?v=na2huJhom-k&list=PLqQn6L5q8gds1T3e_4ZqGpnpS0vFuNkuj&index=3"
         },
         {
-          "titulo": "Feitiço do Tempo",
+          "titulo": "",
           "url": "https://www.youtube.com/watch?v=vF7PzJZSsS8&list=PLqQn6L5q8gds1T3e_4ZqGpnpS0vFuNkuj&index=4"
         }
       ]
     },
     {
       "titulo": "Lives",
-      "cor": "red",
+      "cor": "#000000",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
+        "text": "",
         "url": "https://www.youtube.com/watch?v=jQNYGA9gK9I&list=PLqQn6L5q8gdsW_rEZ8adDjV0qbg6-WC9W"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
+          "titulo": "",
           "url": "https://www.youtube.com/watch?v=O_SNfad4Nz8&list=PLqQn6L5q8gdsW_rEZ8adDjV0qbg6-WC9W&index=2"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
+          "titulo": "",
           "url": "https://www.youtube.com/watch?v=CjsE_DkGoOU&list=PLqQn6L5q8gdsW_rEZ8adDjV0qbg6-WC9W&index=3"
         },
         {
-          "titulo": "God of War 4",
+          "titulo": "",
           "url": "https://www.youtube.com/watch?v=M_Mi3oUOyuo&list=PLqQn6L5q8gdsW_rEZ8adDjV0qbg6-WC9W&index=4"
         },
         {
-          "titulo": "Resident Evil 8",
+          "titulo": "",
           "url": "https://www.youtube.com/watch?v=O_SNfad4Nz8&list=PLqQn6L5q8gdsW_rEZ8adDjV0qbg6-WC9W&index=2"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
+          "titulo": "",
           "url": "https://www.youtube.com/watch?v=jQNYGA9gK9I&list=PLqQn6L5q8gdsW_rEZ8adDjV0qbg6-WC9W"
         }
       ]
     },
     {
-      "titulo": "Batalha SP",
-      "cor": "#6b5be2",
+      "titulo": "BATALHA SP",
+      "cor": "#000000",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
+        "text": "",
         "url": "https://www.youtube.com/watch?v=uQXz5IrBxOg&list=PLqQn6L5q8gduREsZCSqPDDUPlSeX-1MNb&index=1"
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
+          "titulo": "",
           "url": "https://www.youtube.com/watch?v=uQXz5IrBxOg&list=PLqQn6L5q8gduREsZCSqPDDUPlSeX-1MNb&index=2"
         },
         {
-          "titulo": "Faculdade",
+          "titulo": "",
           "url": "https://www.youtube.com/watch?v=kbK5yDte68w&list=PLqQn6L5q8gduREsZCSqPDDUPlSeX-1MNb&index=4"
         },
         {
-          "titulo": "Frameworks",
+          "titulo": "",
           "url": "https://www.youtube.com/watch?v=7cxkI3TP8GQ&list=PLqQn6L5q8gduREsZCSqPDDUPlSeX-1MNb&index=7"
         },
         {
-          "titulo": "A mágica do Aprendizado",
+          "titulo": "",
           "url": "https://www.youtube.com/watch?v=uQXz5IrBxOg&list=PLqQn6L5q8gduREsZCSqPDDUPlSeX-1MNb&index=1"
         },
         {
-          "titulo": "Como aprender a programar?",
+          "titulo": "",
           "url": "https://www.youtube.com/watch?v=vkc5YBT1jQo&list=PLqQn6L5q8gduREsZCSqPDDUPlSeX-1MNb&index=5"
         }
       ]

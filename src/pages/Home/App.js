@@ -1,4 +1,4 @@
-import React from 'react'; 
+import React from 'react';
 import Menu from '../../components/Menu/index';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
@@ -12,7 +12,7 @@ function Home() {
       <BannerMain
         videoTitle={Data.categorias[2].videos[0].titulo}
         url={Data.categorias[2].videos[0].url}
-        videoDescription={"#AsMinaEnsina é um projeto com 4 Bgirls ensinando movimentos base do Breaking."}
+        videoDescription="#AsMinaEnsina é um projeto com 4 Bgirls ensinando movimentos base do Breaking."
       />
       <div id="Prêmio Breaking Latino">
         <Carousel
@@ -27,25 +27,25 @@ function Home() {
       <div id="Science">
         <Carousel
           category={Data.categorias[2]}
-        />   
-      </div>   
+        />
+      </div>
       <div id="Movies">
         <Carousel
           category={Data.categorias[3]}
-        />     
-      </div>  
+        />
+      </div>
       <div id="Docs">
         <Carousel
           category={Data.categorias[4]}
-        />    
-      </div> 
-    <div id="Learning">
-      <Carousel 
-        category={Data.categorias[5]}
-      />      
-    </div>
+        />
+      </div>
+      <div id="Learning">
+        <Carousel
+          category={Data.categorias[5]}
+        />
+      </div>
       <Footer />
-            
+
     </div>
   );
 }

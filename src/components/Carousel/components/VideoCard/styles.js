@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+// eslint-disable-next-line import/prefer-default-export
 export const VideoCardContainer = styled.a`
   text-decoration: none;
   overflow: hidden;
@@ -20,7 +21,7 @@ export const VideoCardContainer = styled.a`
   &:hover,
   &:focus {
     opacity: .5;
-    width: 380px;
+    width: 320px;
     transition: width 0.5s;
     
     
@@ -29,4 +30,21 @@ export const VideoCardContainer = styled.a`
   &:not(:first-child) {
     margin-left: 20px;
   }
+
+  @media (max-width: 400px) {
+    flex: 0 0 100px;
+    width:100px;
+    height: 197px;
+
+    transition: opacity 0.6s;
+    &:hover,
+    &:focus {
+    opacity: .5;
+    width: 100px;
+    transition: width 0.5s;
+    
+    
+
+  }
+
 `;
