@@ -69,7 +69,7 @@ function CadastroCategoria() {
         />
 
         <FormField
-          label="Descrição:"
+          label="Descrição"
           type="????"
           name="descricao"
           value={values.descricao}
@@ -83,8 +83,17 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <button> Cadastrar </button>
+        <button>
+          Cadastrar
+        </button>
       </form>
+
+      {categorias.length === 0 && (
+        <div>
+          Loading...
+        </div>
+
+      )}
 
       <ul>
         {categorias.map((categoria, indice) => (
