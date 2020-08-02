@@ -32,9 +32,9 @@ export const VideoCardContainer = styled.a`
   }
 
   @media (max-width: 400px) {
-    flex: 0 0 100px;
-    width:100px;
-    height: 197px;
+    flex: 0 0 140px;
+    width:140px;
+    height: 200px;
 
     transition: opacity 0.6s;
     &:hover,

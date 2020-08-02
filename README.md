@@ -1,3 +1,7 @@
+🚀 Projeto desenvolvido durante a semana de imersão react da alura
+
+https://daniflix-gamma.vercel.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
