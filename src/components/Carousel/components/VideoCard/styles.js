@@ -34,7 +34,7 @@ export const VideoCardContainer = styled.a`
   @media (max-width: 400px) {
     flex: 0 0 140px;
     width:140px;
-    height: 240px;
+    height: 300px;
 
     transition: opacity 0.6s;
     &:hover,
