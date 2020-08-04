@@ -2,11 +2,11 @@
   "categorias": [
     {
       "id": 6,
-      "titulo": "DevSoutinho",
+      "titulo": "Daniela",
       "cor": "#ff6a00",
       "link_extra": {
         "text": "Canal no YouTube",
-        "url": "https://www.youtube.com/channel/UCeqo6_CYthX78ve_Dq1_Vwg"
+        "url": "https://www.youtube.com/watch?v=TUxI2il-kyQ"
       }
     },
     {
@@ -15,7 +15,7 @@
       "cor": "red",
       "link_extra": {
         "text": "Formação de Jogos na Alura",
-        "url": "https://www.youtube.com/channel/UCeqo6_CYthX78ve_Dq1_Vwg"
+        "url": "https://www.youtube.com/watch?v=TUxI2il-kyQ"
       }
     },
     {
@@ -29,7 +29,7 @@
       "cor": "#6BD1FF",
       "link_extra": {
         "text": "Formação de Front End na Alura",
-        "url": "https://www.youtube.com/channel/UCeqo6_CYthX78ve_Dq1_Vwg"
+        "url": "https://www.youtube.com/watch?v=TUxI2il-kyQ"
       }
     },
     {
