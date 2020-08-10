@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
@@ -9,12 +8,21 @@ function CadastroCategoria() {
   const valoresIniciais = {
     nome: '',
     descricao: '',
-    cor: '',
+    cor: '000000',
   };
 
-  const { handleChange, values, clearForm } = useForm(valoresIniciais);
   const [categorias, setCategorias] = useState([]);
 
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+
+  function handleSubmit(infosDoEvento) {
+    infosDoEvento.preventDefault();
+
+    setCategorias([
+      ...categorias,
+      values,
+    ]);
+  }
   useEffect(() => {
     if (window.location.href.includes('localhost')) {
       const URL = 'http://dani-flix.herokuapp.com/categorias';
@@ -37,18 +45,8 @@ function CadastroCategoria() {
         {values.nome}
       </h1>
 
-      <form onSubmit={function handleSubmit(infosDoEvento) {
-        infosDoEvento.preventDefault();
-
-        setCategorias([
-          ...categorias,
-          values,
-        ]);
-
+      <form onSubmit={handleSubmit}>
         clearForm();
-      }}
-      >
-
         <FormField
           label="Nome da Categoria"
           type="text"
@@ -59,7 +57,7 @@ function CadastroCategoria() {
 
         <FormField
           label="Descrição"
-          type="text"
+          type="textarea"
           name="descricao"
           value={values.descricao}
           onChange={handleChange}
@@ -77,24 +75,14 @@ function CadastroCategoria() {
         </Button>
       </form>
 
-      {categorias.length === 0 && (
-        <div>
-          Loading...
-        </div>
-
-      )}
-
       <ul>
         {categorias.map((categoria) => (
-          <li key={`${categoria.titulo}`}>
+          <li key={`${categoria.id}`}>
             {categoria.titulo}
           </li>
         ))}
       </ul>
 
-      <Link to="/">
-        Ir para home
-      </Link>
     </PageDefault>
   );
 }

@@ -22,8 +22,8 @@ function CadastroVideo() {
       .getAll()
       .then((categoriasFromServer) => {
         setCategorias(categoriasFromServer);
-      });
-  }, []);
+      })
+  }, [])
 
   return (
     <PageDefault>
@@ -31,19 +31,18 @@ function CadastroVideo() {
 
       <form onSubmit={(event) => {
         event.preventDefault();
-        // alert('Video Cadastrado com sucesso!!!1!');
 
         const categoriaEscolhida = categorias.find((categoria) => {
           return categoria.titulo === values.categoria;
         });
 
-        videosRepository.create({
+        videosRepository.Create({
           titulo: values.titulo,
           url: values.url,
           categoriaId: categoriaEscolhida.id,
         })
           .then(() => {
-            // console.log('Cadastrou com sucesso!');
+            alert("Cadastrado com sucesso!");
             history.push('/');
           });
       }}
@@ -64,6 +63,7 @@ function CadastroVideo() {
 
         <FormField
           label="Categoria"
+          type="text"
           name="categoria"
           value={values.categoria}
           onChange={handleChange}
@@ -75,11 +75,8 @@ function CadastroVideo() {
         </Button>
       </form>
 
-      <br />
-      <br />
-
       <Link to="/cadastro/categoria">
-        Cadastrar Categoria
+        Cadastrar uma Categoria
       </Link>
     </PageDefault>
   );
