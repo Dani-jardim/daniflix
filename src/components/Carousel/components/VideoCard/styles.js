@@ -24,7 +24,6 @@ export const VideoCardContainer = styled.a`
     width: 320px;
     transition: width 0.5s;
     
-    
   }
   
   &:not(:first-child) {

@@ -6,11 +6,11 @@
       "cor": "#ff6a00",
       "link_extra": {
         "text": "Canal no YouTube",
-        "url": "https://www.youtube.com/watch?v=TUxI2il-kyQ"
+        "url": "https://www.youtube.com/watch?v=O_SNfad4Nz8&list=PLqQn6L5q8gdsW_rEZ8adDjV0qbg6-WC9W&index=2"
       }
     },
     {
-      "id": 5,
+      "id": 2,
       "titulo": "Games",
       "cor": "red",
       "link_extra": {
@@ -19,12 +19,12 @@
       }
     },
     {
-      "id": 4,
+      "id": 3,
       "titulo": "Filmes",
       "cor": "orange"
     },
     {
-      "id": 1,
+      "id": 4,
       "titulo": "Front End",
       "cor": "#6BD1FF",
       "link_extra": {
@@ -33,7 +33,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 5,
       "titulo": "Back End",
       "cor": "#00C86F",
       "link_extra": {
@@ -42,7 +42,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 6,
       "titulo": "Data Science e Inteligência Artificial",
       "cor": "#9cd33b",
       "link_extra": {
@@ -64,7 +64,7 @@
       "categoriaId": 6,
       "titulo": "Como fazer um React e aprender a ideia do Virtual DOM na prática",
       "description": "Já parou pra pensar como que o React renderiza as coisas na tela?",
-      "url": "https://www.youtube.com/watch?v=Rkv9dOsAnbk"
+      "url": "https://www.youtube.com/watch?v=jQNYGA9gK9I&list=PLqQn6L5q8gdsW_rEZ8adDjV0qbg6-WC9W"
     },
     {
       "id": 1,
